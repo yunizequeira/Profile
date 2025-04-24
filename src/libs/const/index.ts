@@ -41,7 +41,7 @@ const options: Options["options"] = [
   {
     id: 3,
     name: "Contact Us",
-    url: "#contact",
+    url: "contact",
   },
 ];
 

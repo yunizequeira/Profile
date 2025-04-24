@@ -16,7 +16,7 @@ const MyPaginacion = () => {
     <div className="">
       <Carousel className="w-full h-full ">
         <div className=" w-full z-20 flex justify-end">
-          <div className="flex gap-4 z-30">
+          <div className="flex gap-4 z-30 pb-5">
             <div>
               <CarouselPrevious />
             </div>
@@ -28,25 +28,15 @@ const MyPaginacion = () => {
         </div>
         <CarouselContent>
           {perfiles.map((item, index) => (
-            <CarouselItem key={index} className="lg:px-10 w-full">
-              <div className="p-1">
-                {/* <Card> */}
-                  <CardContent className="w-full grid lg:grid-cols-2 gap-3 lg:p-6 h-full rounded-md">
-                    <div className="h-full ">
-                      <CardCarrousel
-                        key={item.name}
-                        {...item}
-                        subtitle="web development"
-                      />
-                    </div>
-                    <div>
-                      <CardDescription
-                        description={item.comment}
-                        profession={item.profession}
-                      />
-                    </div>
-                  </CardContent>
-                {/* </Card> */}
+            <CarouselItem
+              key={index}
+              className="grid grid-cols-1 lg:grid-cols-2"
+            >
+              <div className="w-full lg:px-10 ">
+                <CardCarrousel {...item} />
+              </div>
+              <div>
+                <CardDescription {...item} />
               </div>
             </CarouselItem>
           ))}

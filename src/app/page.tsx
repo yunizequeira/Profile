@@ -10,6 +10,7 @@ import {  useEffect, useState } from "react";
 import {useMenu} from "@/store/menu";
 import Resume from "@/components/Resume";
 import Testimonials from "@/components/Testimonial";
+import Contact from "@/components/Contact";
 export default function Home() {
   const [activeId, setActiveId] = useState<string>('');
   const {asignarId} = useMenu();
@@ -66,6 +67,9 @@ export default function Home() {
       </Section>
       <Section  id="testimonials">
         <Testimonials/>
+      </Section>
+      <Section id="contact">
+        <Contact/>
       </Section>
     </main>
   );

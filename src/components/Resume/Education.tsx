@@ -13,7 +13,7 @@ const Education = () => {
      className="py-10 grid grid-cols-1 sm:grid-cols-2 gap-5 border-b border-black/10">
       {education.map((item) => (
         <div
-          className="py-10 px-10 other-gradient shadow-md shadow-white/10 rounded-md space-y-5 text-slate-300 max-w-[600px] w-full mx-auto"
+          className="py-10 px-10 other-gradient boxShadow shadow-md shadow-white/10 rounded-md space-y-5 text-slate-300 max-w-[600px] w-full mx-auto"
           key={item.name}
         >
           <div className="py-5 border-b border-black/10 text-center">

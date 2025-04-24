@@ -35,7 +35,7 @@ const CardProject = ({ name, image, description, url, values,subtitle }: Project
   return (
     <>
       <Card
-        className="other-gradient border border-slate-200/10 shadow-2xl shadow-white/10  lg:mx-0 group cursor-pointer max-w-96 mx-auto"
+        className="other-gradient border border-slate-200/10 another-gradient boxShadow  lg:mx-0 group cursor-pointer max-w-96 mx-auto"
         onClick={() => setOpen(!open)}
       >
         <CardContent className="rounded-md h-full">
@@ -70,9 +70,9 @@ const CardProject = ({ name, image, description, url, values,subtitle }: Project
           animate={{ opacity: 1,y:0 }}
           transition={{ duration: 0.3, ease: "easeOut" }}
          className="w-screen h-screen fixed top-0 left-0  bg-[#212428] p-2 lg:p-10 rounded-md mt-20 lg:px-10 min-h-screen z-40 overflow-y-scroll text-slate-400 pb-16">
-          <div className="xl:container mx-auto other-gradient shadow-2xl shadow-white/10 px-2 lg:px-10 rounded-2xl relative min-h-screen py-20">
+          <div className="xl:container mx-auto other-gradient  boxShadow  px-2 lg:px-10 rounded-2xl relative min-h-screen py-20">
             <div
-              className="absolute top-5 right-5 rounded-full p-2 cursor-pointer bg-[#212428] w-10 h-10 flex items-center justify-center shadow-2xl shadow-white"
+              className="absolute top-5 right-5 rounded-full p-2 cursor-pointer other-gradient boxShadow  w-10 h-10 flex items-center justify-center"
               onClick={() => setOpen(!open)}
             >
               <button className="text-red-700 font-bold text-xl cursor-pointer">X</button>

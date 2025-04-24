@@ -186,8 +186,8 @@ function CarouselPrevious({
       size={size}
       className={cn(
         orientation === "horizontal"
-          ? " text-slate-300 other-gradient shadow-2xl shadow-white cursor-pointer p-6 z-20 border-2 border-slate-400"
-          : " rotate-90 text-slate-300 other-gradient shadow-2xl shadow-white cursor-pointer p-6 z-20 border-2 border-slate-400",
+          ? " text-slate-300 cursor-pointer p-6 z-20 another-gradient boxShadow"
+          : " rotate-90 text-slate-300  cursor-pointer p-6 z-20 another-gradient boxShadow",
         className
       )}
       disabled={!canScrollPrev}
@@ -216,8 +216,8 @@ function CarouselNext({
       className={cn(
         "",
         orientation === "horizontal"
-          ? " text-slate-300 other-gradient shadow-2xl shadow-white cursor-pointer p-6 z-20 border-2 border-slate-400"
-          : " rotate-90 text-slate-300 other-gradient shadow-2xl shadow-white cursor-pointer p-6 z-20 border-2 border-slate-400",
+          ? " text-slate-300 cursor-pointer p-6 z-20 another-gradient boxShadow"
+          : " rotate-90 text-slate-300 cursor-pointer p-6 z-20 another-gradient boxShadow",
         className
       )}
       disabled={!canScrollNext}

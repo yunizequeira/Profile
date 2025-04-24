@@ -17,7 +17,7 @@ const Resume = () => {
           onClick={() => setSelected("skills")}
           className={
             selected === "skills"
-              ? "w-full p-10 shadow-2xl shadow-white/10 rounded-md text-red-700 text-xl font-semibold cursor-pointer"
+              ? "w-full p-10 boxShadow rounded-md text-red-700 text-xl font-semibold cursor-pointer"
               : "w-full p-10 text-xl font-semibold text-slate-300 cursor-pointer hover:shadow-2xl hover:shadow-white/10 hover:rounded-md hover:text-red-700 hover:font-semibold transition-all duration-300"
           }
         >
@@ -27,7 +27,7 @@ const Resume = () => {
           onClick={() => setSelected("education")}
           className={
             selected === "education"
-              ? "w-full p-10 shadow-2xl shadow-white/10 rounded-md text-red-700 text-xl font-semibold cursor-pointer"
+              ? "w-full p-10 boxShadow rounded-md text-red-700 text-xl font-semibold cursor-pointer"
               : "w-full p-10 text-xl font-semibold text-slate-300 cursor-pointer hover:shadow-2xl hover:shadow-white/10 hover:rounded-md hover:text-red-700 hover:font-semibold transition-all duration-300"
           }
         >

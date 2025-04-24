@@ -33,7 +33,7 @@ const InfoBanner = ({ font }: { font: string }) => {
           href="/profile.pdf"
           target="_blank"
           download
-          className=" py-3 px-5 other-gradient inline-block rounded hover:scale-105 transition-transform duration-300 capitalize font-semibold text-red-700 text-lg shadow-md shadow-white/10"
+          className=" py-3 px-5 another-gradient boxShadow inline-block rounded hover:scale-105 transition-transform duration-300 capitalize font-semibold text-red-700 text-lg shadow-md shadow-white/10"
         >
           Download my CV
         </Link>
