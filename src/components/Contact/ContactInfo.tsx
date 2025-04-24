@@ -22,7 +22,7 @@ const ContactInfo = () => {
           <div className="text-slate-300 space-y-3 lg:text-lg">
             <p className="text-slate-300 lg:text-lg">Frontend Web Developer</p>
             <p>
-              I am available for freelance work. Connect with me via and call in
+              I am available for work. Connect with me via and call in
               to my account.{" "}
             </p>
             <p>Phone: +1 (702) 415-0982</p>
