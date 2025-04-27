@@ -25,11 +25,6 @@
   box-shadow: inset 8px 8px 16px rgba(0, 0, 0, 0.4588235294),
     inset -8px -8px 16px rgba(56, 62, 69, 0.4588235294);
 }
-.formShadow {
-  box-sizing: border-box;
-  /* box-shadow: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225; */
-  inner-shadow: 1px 4px 2px -3px rgba(0,0,0,.7) inset,-1px -3px 3px -2px hsla(0,0%,100%,.2) inset
-}
 
 .another-gradient {
   background: linear-gradient(145deg, #1e2024, #23272b);

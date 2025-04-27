@@ -116,11 +116,11 @@ const projects = [
     link: "https://pagespeed.web.dev/analysis/https-frontend-mentor-dessert-vercel-app/g3pq7gi6ko?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=en-US&utm_source=lh-chrome-ext",
   },
   {
-    name: "4K",
-    image: "/My-Projects/4k.png",
+    name: "My Movies",
+    image: "/My-Projects/movies.png",
     description:
       "In the vibrant heart of Las Vegas, we bring to life unforgettable experiences for the Latino community. We are more than event organizers; we are architects of moments that celebrate the rich diversity and joy of our culture.Our Picture a place where Latin music fills the air, where every corner is infused with the flavor and spirit of our traditions. At The 4K Group, we create gatherings that go beyond the ordinary, blending the excitement of music, dance, and gastronomy to deliver not just events, but true celebrations.",
-    url: "https://www.lvwebdesigngroup.com/",
+    url: "https://mymovies-omega.vercel.app/",
     values: {
       performance: 100,
       accessibility: 94,

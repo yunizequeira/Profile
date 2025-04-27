@@ -79,7 +79,7 @@ const Formulario = () => {
           id=""
           cols={30}
           rows={10}
-          className="p-3 w-full rounded-md bg-[#191b1e]  text-slate-300 shadow-md shadow-white/10"
+          className="p-3 w-full rounded-md bg-[#191b1e]  text-slate-300 shadow-md shadow-white/10 resize-none"
         ></textarea>
       </div>
       <button className="w-full text-red-700 font-semibold uppercase other-gradient boxShadow shadow-md shadow-white/10 rounded-md p-3 hover:-translate-y-0.5 transition-transform duration-300 cursor-pointer">
