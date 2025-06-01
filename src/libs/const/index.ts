@@ -123,7 +123,7 @@ const projects = [
     url: "https://mymovies-omega.vercel.app/",
     values: {
       performance: 100,
-      accessibility: 94,
+      accessibility: 96,
       bestPractices: 96,
       seo: 100,
     },
