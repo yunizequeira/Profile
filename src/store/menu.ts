@@ -12,6 +12,5 @@ export const useMenu = create<MenuType>((set) => ({
     id:"home",
     asignarId:(id:string)=>{
         set({id})
-        console.log(id)
     }
 }))
