@@ -7,12 +7,12 @@ import SocialMedia from "../SoacialMedia";
 import { useMenu } from "@/store/menu";
 
 const LinkSide = ({ toogle }: { toogle: () => void }) => {
-  const {asignarId,id} = useMenu();
-    const handleClick = (url: string) => {
-      asignarId(url);
-      toogle();
-      document.getElementById(url)?.scrollIntoView({ behavior: "smooth" });
-    };
+  const { asignarId, id } = useMenu();
+  const handleClick = (url: string) => {
+    asignarId(url);
+    toogle();
+    document.getElementById(url)?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <div className="w-3/4 bg-[#212428] h-full flex justify-between items-start relative overflow-y-scroll">
@@ -24,7 +24,9 @@ const LinkSide = ({ toogle }: { toogle: () => void }) => {
           <li key={option.id}>
             <p
               className={
-                option.url === id ? "p-2 text-red-700 cursor-pointer" : "p-2 text-white transition-colors duration-300 text-xl lg:text-base font-extralight cursor-pointer"
+                option.url === id
+                  ? "p-2 text-red-700 cursor-pointer"
+                  : "p-2 text-white transition-colors duration-300 text-xl lg:text-base font-extralight cursor-pointer"
               }
               onClick={() => handleClick(option.url)}
             >

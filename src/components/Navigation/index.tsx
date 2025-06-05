@@ -1,6 +1,7 @@
 "use client";
 import { options } from "@/libs/const";
 import {useMenu} from '@/store/menu'
+import * as motion from 'framer-motion/client';
 
 const Navigation = () => {
   const {asignarId,id} = useMenu();
@@ -9,7 +10,11 @@ const Navigation = () => {
     document.getElementById(url)?.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <ul className="w-full flex flex-col lg:flex-row justify-center items-center gap-8 h-full ">
+    <motion.ul
+    initial={{ opacity: 0 }}
+   animate={{ opacity: 1 }}
+    transition={{ duration: 0.6, ease: "easeOut" }}
+    className="w-full flex flex-col lg:flex-row justify-center items-center gap-8 h-full ">
       {options.map((option) => (
         <li key={option.id}>
           <p
@@ -24,7 +29,7 @@ const Navigation = () => {
           </p>
         </li>
       ))}
-    </ul>
+    </motion.ul>
   );
 };
 
