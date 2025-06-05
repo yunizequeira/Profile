@@ -14,7 +14,7 @@ const InfoBanner = ({ font }: { font: string }) => {
 
         <div className={`${font} text-2xl sm:text-4xl  xl:text-5xl font-bold space-y-7`}>
           <h1>
-            Hi, I{"'"}m Yunior Zequeira
+            Hi, I{"'"}m Yunior Moreno
           </h1>
           <div>
             <TypewriterText color="text-white" />
