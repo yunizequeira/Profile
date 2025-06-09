@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: '2025-06-08',
       changeFrequency: 'weekly',
       priority: 0.5,
-      images: ['https://example.com/people/Yuni.png'],
+      images: ['https://lvwebdesign.group/people/Yuni.png'],
     },
   ]
 }
