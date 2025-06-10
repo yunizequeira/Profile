@@ -10,7 +10,7 @@ const SkillBanner = () => {
         <Subtitle tittle="About My Skill " />
       </div>
       <div className="space-y-5 py-10">
-        <h5 className="uppercase">Primary skills on</h5>
+        <p className="uppercase">Primary skills on</p>
         <div className="flex flex-wrap gap-4">
           {skills.primary.map((skill) => (
             <ContenedorIcon key={skill}><Image src={`/Icons/${skill}.png`} width={32} height={32} alt={skill} className="h-full w-auto mx-auto"/></ContenedorIcon>
@@ -18,7 +18,7 @@ const SkillBanner = () => {
         </div>
       </div>
       <div className="space-y-5 py-10">
-        <h5 className="uppercase">Secondary Skills on</h5>
+        <p className="uppercase">Secondary Skills on</p>
         <div className="flex flex-wrap gap-4">
           {skills.secundary.map((skill) => (
             <ContenedorIcon key={skill}><Image src={`/Icons/${skill}.png`} width={128} height={192} alt={skill} className="h-auto w-24" /></ContenedorIcon>

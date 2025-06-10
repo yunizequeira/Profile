@@ -29,7 +29,7 @@ const Formulario = () => {
   return (
     <form className="py-5" onSubmit={handleSubmit((data) => onSubmit(data))}>
       {done && (
-        <div className="bg-[#191b1e] shadow-md shadow-white/10 p-3 rounded-md text-slate-300">
+        <div className="bg-[#191b1e] shadow-md shadow-white/10 rounded-md text-slate-300 max-w-[600px] mx-auto p-5">
           <p className="text-center">Your message has been sent</p>
         </div>
       )}
