@@ -49,34 +49,6 @@ export default function Home() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Person",
-            name: "Yunior Zequeira",
-            url: "https://lvwebdesign.group",
-            sameAs: ["https://www.linkedin.com/in/yunior-zequeira-246a14216/"],
-            jobTitle: "Desarrollador Web",
-            worksFor: {
-              "@type": "Organization",
-              name: "LV Web Design Group",
-            },
-            image: "https://lvwebdesign.group/people/Yuni.png",
-            email: "mailto:yunizequeira@gmail",
-            telephone: "+17024150982",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "Las Vegas, Nevada",
-              addressLocality: "Las Vegas",
-              addressRegion: "NV",
-              postalCode: "89101",
-              addressCountry: "US",
-            },
-          }),
-        }}
-      />
       <Section id="home">
         <div className="border-b border-black/10">
           <Banner font={` ${croissant.className}`} />
