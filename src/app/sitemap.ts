@@ -4,7 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: 'https://lvwebdesign.group',
-      lastModified: '2025-06-08',
+      lastModified: '2025-06-13',
       changeFrequency: 'weekly',
       priority: 0.5,
       images: ['https://lvwebdesign.group/people/Yuni.png'],
