@@ -22,39 +22,30 @@ export function generateViewport(): Viewport {
   };
 }
 export const metadata: Metadata = {
+  metadataBase: new URL(`${process.env.NEXT_PUBLIC_HOME_PAGE}`),
   title: "Yunior Zequeira | Desarrollador Web en Las Vegas",
   description:
     "Portafolio de Yunior Zequeira, desarrollador web especializado en React.js y Next.js en Las Vegas.",
   keywords:
-    "Yunior Zequeira, desarrollador web, React, Next.js, Las Vegas, sitios web",
-  openGraph: {
+    "Yunior Zequeira,Yunior Zequeira MOreno, desarrollador web, React, Next.js, Las Vegas, sitios web",
+  appleWebApp: {
     title: "Yunior Zequeira | Desarrollador Web en Las Vegas",
-    description:
-      "Portafolio de Yunior Zequeira, desarrollador web especializado en React.js y Next.js en Las Vegas.",
-    url: "https://lvwebdesign.group",
-    siteName: "Yunior Zequeira | Desarrollador Web en Las Vegas",
-    locale: "en_US",
-    type: "website",
-
-    images: [
+    statusBarStyle: "black-translucent",
+    startupImage: [
       {
-        url: "https://lvwebdesign.group/people/Yuni.png",
-        width: 800,
-        height: 600,
-        alt: "Yunior Zequeira | Desarrollador Web en Las Vegas",
+        url: "/favicon.ico",
+        media:
+          "(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)",
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Yunior Zequeira | Desarrollador Web en Las Vegas",
-    description:
-      "Portafolio de Yunior Zequeira, desarrollador web especializado en React.js y Next.js en Las Vegas.",
-    images: ["https://lvwebdesign.group/people/Yuni.png"],
-  },
-
-  verification: {
-    google: "PoQ_7yqwr5v3-vZmcUYcZaTmAOU5X8Gs45eU8s6eOqY",
+  icons: {
+    icon: [{ url: "/Icons/logo.png" }, { url: "/icon.png", type: "image/png" }],
+    apple: [
+      { url: "/favicon.ico" },
+      { url: "/Icons/logo.png", sizes: "152x152", type: "image/png" },
+      { url: "/Icons/logo.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 };
 
