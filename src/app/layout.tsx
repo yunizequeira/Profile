@@ -2,7 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import type { Metadata, Viewport } from "next";
-import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,6 +47,9 @@ export const metadata: Metadata = {
       { url: "/Icons/logo.png", sizes: "180x180", type: "image/png" },
     ],
   },
+  alternates: {
+    canonical: "https://lvwebdesign.group/",
+  }
 };
 
 export default function RootLayout({
@@ -57,9 +59,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="canonical" href="https://lvwebdesign.group/" />
-      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#212428] text-white`}
       >
